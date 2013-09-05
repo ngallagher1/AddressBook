@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+import java.text.*;
+
+public class PersonalContact<E> extends GeneralContact<E>
+{
+	private String nickName;
+
+	public PersonalContact()
+	{
+		super();
+		nickName = "";
+	}
+
+	public PersonalContact(String first, String last, int phone, String a, String n)
+	{
+		super(first, last, phone, a);
+		nickName = n;
+	}
+
+}
