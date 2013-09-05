@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+import java.text.*;
+
+public class FamilyContact<E> extends GeneralContact<E>
+{
+	private String relationship;
+
+	public FamilyContact()
+	{
+		super();
+		relationship = "";
+	}
+
+	public FamilyContact(String first, String last, int phone, String a, String r)
+	{
+		super(first, last, phone, a);
+		relationship = r;
+	}
+
+}
