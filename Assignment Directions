@@ -1,0 +1,33 @@
+CS 301 EA
+Assignment 2                                      Review Inheritance
+
+Write an application that implements and tests an address book class.
+The address book will be implemented using an ArrayList of Contacts.
+Your address book will contain several types of contacts:
+
+Family Members
+Personal Friends
+Business Associates.
+
+1. Create a class to represent a general contact. Decide on the
+data fields and methods that you want to include in this class.
+
+2. Create a class to represent a familiy member.  This class
+should extend the contact class and contain data fields and 
+methods appropriate for a member of your family.
+
+3. Create a class to represent a personal friend.  This class
+should extend the contact class and contain data fields and 
+methods appropriate for a friend.
+
+4. Create a class to represent a business associate.  This class
+should extend the contact class and contain data fields and 
+methods appropriate for a business associate.
+
+5. Write an application that uses an ArrayList of contacts to hold
+your address book.  Your application should add entries to the 
+address book and test the methods in each of your classes.
+
+Think carefully about the data elements and methods that you want 
+to place in each class.  Be sure that each of your classes is 
+well documented.
